@@ -1,15 +1,29 @@
 //Display the number in reverse order
 //fix and complete the program below.
-
-
-cout<<"user input a number: ";
-
-for(t=num;num!=0;num=num/10)
+#include <iostream>
+using namespace std;
+int main ()
 {
-	r=num % 10;
-	sum=sum*10+r;
+	
+	int n,t=0,r;
+	
+	cout << "Enter A Accending Number" << endl;
+	cin >> n;
+	
+	for (;n!=0;)
+	{
+		r=n%10;
+		t=t*10+r;
+		n/=10;
+	}
+	
+	cout << "Reversed Number is " << endl;
+	cout << t;
+	
+	return 0;
 
-}
-cout<<"The number in reverse order: "<<endl;
+
+
+
 
 }
