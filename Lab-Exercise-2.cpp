@@ -16,16 +16,16 @@ int main()
 
 			if(u<i)
 
-				if(i%u=)
+				if(i%u==0)
 					sum=sum+u;
 
-	u++
+	u++;
 
 		if(sum=i)
 			
 			cout<<i<<" "<<endl;
 
-	i++
+	i++;
 		u=1;
 		sum=0;
 
